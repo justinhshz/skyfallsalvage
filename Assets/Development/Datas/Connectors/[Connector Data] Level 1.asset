@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48b59619d1f94c4b8a98d7ffaa05c8b, type: 3}
+  m_Name: '[Connector Data] Level 1'
+  m_EditorClassIdentifier: 
+  connectorSprite: {fileID: 21300000, guid: 90ff51e041744224fa7ca5c20d002272, type: 3}
+  connectorPrefab: {fileID: 6230385803751531521, guid: 075174fb3d15d4d4ab1d24dd1ab26e31, type: 3}
+  equipmentRecipes:
+  - requiredElements:
+    - {fileID: 11400000, guid: 449a4b1bb0582db4b812fd15b6fb4959, type: 2}
+    - {fileID: 11400000, guid: eba49aace30c7514e859826ed7d4b46e, type: 2}
+    generatedEquipment: {fileID: 11400000, guid: b264418c83cca1e41b11b74e227aeb7d, type: 2}
+    scoreValue: 11
+  - requiredElements:
+    - {fileID: 11400000, guid: eba49aace30c7514e859826ed7d4b46e, type: 2}
+    - {fileID: 11400000, guid: ff361f77f23875e49bec1a4714a2e304, type: 2}
+    generatedEquipment: {fileID: 11400000, guid: c416adb0e716077428f93c7b9057cca6, type: 2}
+    scoreValue: 12
+  description: 

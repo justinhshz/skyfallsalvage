@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48b59619d1f94c4b8a98d7ffaa05c8b, type: 3}
+  m_Name: '[Connector Data] Level 3'
+  m_EditorClassIdentifier: 
+  connectorSprite: {fileID: 21300000, guid: bbe3da7e798f8f0489f1532acaa2d933, type: 3}
+  connectorPrefab: {fileID: 6601432227683516219, guid: 8d77bf92f3778d84384a7eada0e58e16, type: 3}
+  equipmentRecipes: []
+  description: 
