@@ -223,6 +223,244 @@ Equipments are the result of successful combinations involving a connector and t
 
 ---
 
+## 🧪 Crafting Recipes
+
+The following recipes show how specific combinations of two elements and one connector create unique equipments, each with a powerful effect and activation score:
+
+### 🚀 Equipment Lv.1
+
+> [!NOTE]
+> **Activation Score:** 30\
+> **Effect:** Upgrades all elements it touches by one level (e.g., if two Lv.1 elements and one Lv.3 element are in contact, they will become Lv.2, Lv.2, and Lv.4 respectively).
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%202.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.2
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%203.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.3
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Connectors/%5BConnector%5D%20Level%201.png"
+      width="60" />
+      <br/>
+      <strong>
+        Connector Lv.1
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＝
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%201.png"
+      width="60" />
+      <br/>
+      <strong>
+        Equipment Lv.1
+      </strong>
+    </td>
+  </tr>
+</table>
+
+### 🚿 Equipment Lv.2
+
+> [!NOTE]
+> **Activation Score:** 50\
+> **Effect:** Converts all elements it touches into the one with the lowest tier among them (e.g., if it touches a Lv.2, Lv.3, and Lv.4 element, all will become Lv.2).
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%203.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.3
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%204.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.4
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Connectors/%5BConnector%5D%20Level%201.png"
+      width="60" />
+      <br/>
+      <strong>
+        Connector Lv.1
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＝
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%202.png"
+      width="60" />
+      <br/>
+      <strong>
+        Equipment Lv.2
+      </strong>
+    </td>
+  </tr>
+</table>
+
+### 🤖 Equipment Lv.3
+
+> [!NOTE]
+> **Activation Score:** 100\
+> **Effect:** Shrinks all items it touches to make space (e.g., affected items will occupy smaller physical space, allowing more room before hitting the stack limit).
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%203.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.3
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%204.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.4
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Connectors/%5BConnector%5D%20Level%202.png"
+      width="60" />
+      <br/>
+      <strong>
+        Connector Lv.2
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＝
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%203.png"
+      width="60" />
+      <br/>
+      <strong>
+        Equipment Lv.3
+      </strong>
+    </td>
+  </tr>
+</table>
+
+### 🦾 Equipment Lv.4
+
+> [!NOTE]
+> **Activation Score:** 150\
+> **Effect:** Transforms all connectors currently present on the field into the lowest-tier element it contacts (e.g., if it touches Lv.2 and Lv.5 elements, all connectors become Lv.2 elements).
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%204.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.4
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%205.png"
+      width="60" />
+      <br/>
+      <strong>
+        Element Lv.5
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＋
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Connectors/%5BConnector%5D%20Level%202.png"
+      width="60" />
+      <br/>
+      <strong>
+        Connector Lv.2
+      </strong>
+    </td>
+    <td align="center">
+      <strong>
+        ＝
+      </strong>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%204.png"
+      width="60" />
+      <br/>
+      <strong>
+        Equipment Lv.4
+      </strong>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🏷️ Icon Credits
 
 Icons used in this project are sourced from [Flaticon](https://www.flaticon.com/) under the Free License:
