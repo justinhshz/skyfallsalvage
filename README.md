@@ -15,16 +15,16 @@ In a dystopian future, the wealthy live in a majestic floating city known as Cel
 
 **Core Mechanics:**
 
-* 🧱 **Falling Elements**\
+* 🧬 **Falling Elements**\
   Elements fall from the top of the screen. When two identical elements collide, they merge into a higher-level element. Only the first few low-tier elements will fall. Higher-level elements must be obtained by merging—they will never drop directly.
 
-* 🔗 **Connectors System**\
+* 🧷 **Connectors System**\
   Occasionally, connectors fall. When they contact **two specific types of different elements**, they combine to form a **equipment**.
 
 * ⏱️ **Controlled Drop Timing**\
   Elements and connectors move back and forth horizontally across the screen while a countdown timer runs. The player must **click** or press **spacebar** before the timer expires to decide when and where to drop the item. If no input is given in time, the item will automatically fall at its current position.
 
-* 💥 **Activating Equipments**\
+* ⚡ **Activating Equipments**\
   Equipments are crafted during gameplay but remain inactive until your score reaches their activation threshold. Once unlocked, you can trigger them at any time for powerful effects like instant upgrades or element conversions.
 
 * 🎯 **Skill Selection**\
@@ -43,6 +43,183 @@ This game is fully playable with a mouse or keyboard:
 * **Click on Skills** – Choose one when the selection appears at specific score milestones.
 * **Click on Equipments** – Activate them after unlocking, at any time during gameplay.
 * **No additional keyboard input required.**
+
+---
+
+## 🧩 Item Overview
+
+There are three core item types—**Elements**, **Connectors**, and **Equipments**—each with distinct mechanics and clear visual hierarchy. Below is an overview to help you quickly identify and understand the role of each category.
+
+### 🧬 Elements
+
+Elements are the fundamental items that fall from above. When two identical elements collide, they merge into a higher-level element. Only lower-tier elements drop; advanced levels must be achieved through merging.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%201.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.1
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%202.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.2
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%203.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.3
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%204.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.4
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%205.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.5
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%206.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.6
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%207.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.7
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%208.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.8
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%209.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.9
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Elements/%5BElement%5D%20Level%2010.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.10
+        </strong>
+      </div>
+    </td>
+  </tr>
+</table>
+
+### 🧷 Connectors
+
+Connectors are special items that trigger crafting when they contact two specific, compatible elements. They do not merge with other connectors and only appear occasionally.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Connectors/%5BConnector%5D%20Level%201.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.1
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Connectors/%5BConnector%5D%20Level%202.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.2
+        </strong>
+      </div>
+    </td>
+  </tr>
+</table>
+
+### ⚡ Equipments
+
+Equipments are the result of successful combinations involving a connector and two matching elements. They provide powerful effects but can only be activated once your score reaches the required threshold.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%201.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.1
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%202.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.2
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%203.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.3
+        </strong>
+      </div>
+    </td>
+    <td align="center">
+      <img src="Assets/Development/Sprites/Entities/Equipments/%5BEquipment%5D%20Level%204.png"
+      width="60" />
+      <div style="margin-top: 4px;">
+        <strong>
+          Lv.4
+        </strong>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
