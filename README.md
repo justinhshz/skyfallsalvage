@@ -22,6 +22,7 @@ Welcome to **Skyfall Salvage** — a lighthearted 2D roguelike merge-and-upgrade
     * 🚿 [Equipment Lv.2](#-equipment-lv2)
     * 🤖 [Equipment Lv.3](#-equipment-lv3)
     * 🦾 [Equipment Lv.4](#-equipment-lv4)
+* 🎯 [Skill Choices](#-skill-choices)
 * 🏷️ [Icon Credits](#%EF%B8%8F-icon-credits)
 
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -32,22 +33,22 @@ In a dystopian future, the wealthy live in a majestic floating city known as Cel
 
 **Core Mechanics:**
 
-* 🧬 **Falling Elements**
+* 🧬 **Falling Elements**\
     Elements fall from the top of the screen. When two identical elements collide, they merge into a higher-level element. Only the first few low-tier elements will fall. Higher-level elements must be obtained by merging—they will never drop directly.
 
-* 🧷 **Connectors System**
+* 🧷 **Connectors System**\
     Occasionally, connectors fall. When they contact **two specific types of different elements**, they combine to form a **equipment**.
 
-* ⏱️ **Controlled Drop Timing**
+* ⏱️ **Controlled Drop Timing**\
     Elements and connectors move back and forth horizontally across the screen while a countdown timer runs. The player must **click** or press **spacebar** before the timer expires to decide when and where to drop the item. If no input is given in time, the item will automatically fall at its current position.
 
-* ⚡ **Activating Equipments**
+* ⚡ **Activating Equipments**\
     Equipments are crafted during gameplay but remain inactive until your score reaches their activation threshold. Once unlocked, you can trigger them at any time for powerful effects like instant upgrades or element conversions.
 
-* 🎯 **Skill Selection**
+* 🎯 **Skill Selection**\
     Skills are offered at regular score intervals, allowing you to choose effects like score multipliers for merges or extended countdown time before auto-drop. These choices shape each run and add variety to the roguelike experience.
 
-* ⚠️ **Game Over & Rankings**
+* ⚠️ **Game Over & Rankings**\
     The game ends when items stack beyond the designated boundary line near the top of the field. Players must manage space carefully to avoid reaching this critical limit. After the game ends, your score is recorded and compared on a leaderboard, adding a competitive element to each run.
 
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -249,7 +250,7 @@ The following recipes show how specific combinations of two elements and one con
 ### 🚀 Equipment Lv.1
 
 > [!NOTE]
-> **Activation Score:** 30
+> **Activation Score:** 30\
 > **Effect:** Upgrades all elements it touches by one level (e.g., if two Lv.1 elements and one Lv.3 element are in contact, they will become Lv.2, Lv.2, and Lv.4 respectively).
 
 <table>
@@ -307,7 +308,7 @@ The following recipes show how specific combinations of two elements and one con
 ### 🚿 Equipment Lv.2
 
 > [!NOTE]
-> **Activation Score:** 50
+> **Activation Score:** 50\
 > **Effect:** Converts all elements it touches into the one with the lowest tier among them (e.g., if it touches a Lv.2, Lv.3, and Lv.4 element, all will become Lv.2).
 
 <table>
@@ -365,7 +366,7 @@ The following recipes show how specific combinations of two elements and one con
 ### 🤖 Equipment Lv.3
 
 > [!NOTE]
-> **Activation Score:** 100
+> **Activation Score:** 100\
 > **Effect:** Shrinks all items it touches to make space (e.g., affected items will occupy smaller physical space, allowing more room before hitting the stack limit).
 
 <table>
@@ -423,7 +424,7 @@ The following recipes show how specific combinations of two elements and one con
 ### 🦾 Equipment Lv.4
 
 > [!NOTE]
-> **Activation Score:** 150
+> **Activation Score:** 150\
 > **Effect:** Transforms all connectors currently present on the field into the lowest-tier element it contacts (e.g., if it touches Lv.2 and Lv.5 elements, all connectors become Lv.2 elements).
 
 <table>
@@ -477,6 +478,23 @@ The following recipes show how specific combinations of two elements and one con
         </td>
     </tr>
 </table>
+
+![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 🎯 Skill Choices
+
+As your score increases, you'll be presented with a choice of skills that enhance your gameplay. These upgrades are stackable and help shape your strategy in each run.
+
+### ✨ **Available Skills**
+
+| 📋 Skill Name                  | 💥 Effect                                                                     |
+| ------------------------------ | ----------------------------------------------------------------------------- |
+| **Merge Bonus +1 / +2 / +3**   | Gain additional score (+1, +2, or +3) for every successful merge.             |
+| **Countdown Duration +1 / +2** | Increases drop countdown by 1 or 2 seconds, offering more placement time.     |
+| **Movement Speed +1**          | Speeds up horizontal movement, enabling faster traversal across the screen.   |
+
+> [!TIP]
+> Skill choices appear at regular score intervals (e.g., every 100 points). Choose wisely—your decisions stack and define your build.
 
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
