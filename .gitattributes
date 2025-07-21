@@ -1,0 +1,44 @@
+# Force batch scripts to always use CRLF line endings so that if a repo is accessed
+# in Windows via a file share from Linux, the scripts will work.
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Force bash scripts to always use LF line endings so that if a repo is accessed
+# in Unix via a file share from Windows, the scripts will work.
+*.{sh,[sS][hH]} text eol=lf
+
+# Force config files to always use LF line endings so that if a repo is accessed
+# in Unix via a file share from Windows, the scripts will work.
+*.{json,[jJ][sS][oO][nN]} text eol=lf
+*.{yaml,[yY][aA][mM][lL]} text eol=lf
+
+# Treat image assets as binary to avoid corruption and unnecessary diff.
+*.{png,[pP][nN][gG]} binary
+*.{jpg,[jJ][pP][gG]} binary
+*.{jpeg,[jJ][pP][eE][gG]} binary
+*.{gif,[gG][iI][fF]} binary
+*.{bmp,[bB][mM][pP]} binary
+*.{tiff,[tT][iI][fF][fF]} binary
+
+# Treat audio assets as binary to avoid corruption and unnecessary diff.
+*.{mp3,[mM][pP]3} binary
+*.{wav,[wW][aA][vV]} binary
+*.{ogg,[oO][gG][gG]} binary
+*.{flac,[fF][lL][aA][cC]} binary
+
+# Treat video assets as binary to avoid corruption and unnecessary diff.
+*.{mp4,[mM][pP]4} binary
+*.{mkv,[mM][kK][vV]} binary
+*.{mov,[mM][oO][vV]} binary
+
+# Treat 3D model assets as binary to avoid corruption and unnecessary diff.
+*.{fbx,[fF][bB][xX]} binary
+*.{obj,[oO][bB][jJ]} binary
+*.{blend,[bB][lL][eE][nN][dD]} binary
+
+# Treat Unity-specific assets as binary to avoid corruption and unnecessary diff.
+*.{mat,[mM][aA][tT]} binary
+*.{anim,[aA][nN][iI][mM]} binary
+*.{mixer,[mM][iI][xX][eE][rR]} binary
+*.{controller,[cC][oO][nN][tT][rR][oO][lL][lL][eE][rR]} binary
+*.{renderTexture,[rR][eE][nN][dD][eE][rR][Tt][eE][xX][tT][uU][rR][eE]} binary
